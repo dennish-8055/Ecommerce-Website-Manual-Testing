@@ -3,7 +3,7 @@
 ### Manual Software Testing | Functional Testing | Test Case Design | Test Execution | Bug Reporting
 
 ![Manual Testing](https://img.shields.io/badge/Testing-Manual%20Testing-blue)
-![Test Cases](https://img.shields.io/badge/Test%20Cases-20-orange)
+![Test Cases](https://img.shields.io/badge/Test%20Cases-35-orange)
 ![Application](https://img.shields.io/badge/Application-SauceDemo-green)
 ![Status](https://img.shields.io/badge/Project-In%20Progress-yellow)
 
@@ -39,15 +39,15 @@ The application is tested from an end-user perspective to verify whether its maj
 
 ## 🛠️ Tools & Technologies Used
 
-| Tool                  | Purpose                                                    |
-| --------------------- | ---------------------------------------------------------- |
-| 🌐 Google Chrome      | Accessing and testing the web application                  |
-| 📊 Microsoft Excel    | Preparing test scenarios, test cases and execution reports |
-| 💻 Visual Studio Code | Creating and editing project documentation                 |
-| ✂️ Snipping Tool      | Capturing screenshots as test evidence                     |
-| 🛒 SauceDemo          | Application Under Test                                     |
-| 🐙 GitHub             | Project hosting and version control                        |
-| 📝 Markdown           | Project documentation                                      |
+| Tool                  | Purpose                                                     |
+| --------------------- | ----------------------------------------------------------- |
+| 🌐 Google Chrome      | Accessing and testing the web application                   |
+| 📊 Microsoft Excel    | Preparing test scenarios, test cases, and execution reports |
+| 💻 Visual Studio Code | Creating and editing project documentation                  |
+| ✂️ Snipping Tool      | Capturing screenshots as test evidence                      |
+| 🛒 SauceDemo          | Application Under Test                                      |
+| 🐙 GitHub             | Project hosting and version control                         |
+| 📝 Markdown           | Project documentation                                       |
 
 ### Technology Badges
 
@@ -63,18 +63,18 @@ The application is tested from an end-user perspective to verify whether its maj
 
 The following application modules are included in the testing scope:
 
-| Module               | Testing Activities                                     |
-| -------------------- | ------------------------------------------------------ |
-| 🔐 Login             | Valid login, invalid login and empty-field validation  |
-| 📦 Products          | Product display and product sorting                    |
-| 🛍️ Shopping Cart    | Adding products, removing products and cart validation |
-| 📝 Checkout          | Customer information and required-field validation     |
-| 💳 Checkout Overview | Product details, prices, tax and total calculation     |
-| ✅ Order Confirmation | Successful order placement and confirmation            |
+| Module               | Testing Activities                                      |
+| -------------------- | ------------------------------------------------------- |
+| 🔐 Login             | Valid login, invalid login, and empty-field validation  |
+| 📦 Products          | Product display and product sorting                     |
+| 🛍️ Shopping Cart    | Adding products, removing products, and cart validation |
+| 📝 Checkout          | Customer information and required-field validation      |
+| 💳 Checkout Overview | Product details, prices, tax, and total calculation     |
+| ✅ Order Confirmation | Successful order placement and confirmation             |
 
 ---
 
-## 🔍 Types of Testing Performed
+## 🔍 Types of Testing
 
 * Functional Testing
 * Positive Testing
@@ -88,18 +88,19 @@ The following application modules are included in the testing scope:
 
 ## 📋 Test Execution Summary
 
-A total of **20 test scenarios and 20 corresponding test cases** are documented in the current project.
+A total of **20 test scenarios and 35 test cases** are documented in the project.
 
-### Current Test Execution Results
+The test cases cover the major functionalities of the SauceDemo application.
 
-| Test Status   |  Count | Description                                |
-| ------------- | -----: | ------------------------------------------ |
-| 🟢 PASS       |     14 | Actual result matches expected result      |
-| 🔴 FAIL       |      0 | No confirmed failed test cases recorded    |
-| 🟡 NOT TESTED |      6 | Test cases documented but not yet executed |
-| **Total**     | **20** | **Total documented test cases**            |
+### Test Execution Status
 
-**Note:** Test execution results are maintained in `Test-Execution-Report.xlsx`. Untested cases are clearly identified instead of being reported as passed. The results will be updated as additional test cases are executed.
+| Test Status   | Description                                  |
+| ------------- | -------------------------------------------- |
+| 🟢 PASS       | Actual result matches expected result        |
+| 🔴 FAIL       | Actual result does not match expected result |
+| 🟡 NOT TESTED | Test case documented but not yet executed    |
+
+**Note:** Actual test execution results are maintained in `Test-Execution-Report.xlsx` and `Test-Cases.xlsx`. Test cases that have not been executed are marked as `NOT TESTED` and are not counted as passed.
 
 ---
 
@@ -125,13 +126,9 @@ Ecommerce-Website-Manual-Testing/
 │   └── 14-order-confirmation.png
 │
 ├── Test-Scenarios.xlsx
-│
 ├── Test-Cases.xlsx
-│
 ├── Bug-Reports.xlsx
-│
 ├── Test-Execution-Report.xlsx
-│
 └── README.md
 ```
 
@@ -139,7 +136,7 @@ Ecommerce-Website-Manual-Testing/
 
 ## 📸 Screenshots & Test Evidence
 
-The `Screenshots` folder contains 14 screenshots documenting different stages of the manual testing process.
+The `Screenshots` folder contains screenshots documenting different stages of the manual testing process.
 
 | Screenshot | Evidence                                       |
 | ---------- | ---------------------------------------------- |
@@ -154,6 +151,40 @@ The `Screenshots` folder contains 14 screenshots documenting different stages of
 | 12         | Checkout overview                              |
 | 13         | Checkout overview with total and Finish button |
 | 14         | Successful order confirmation                  |
+
+### 🖼️ Screenshot Gallery
+
+#### 1. Login Page
+
+![Login Page](Screenshots/01-login-page.png)
+
+#### 2. Products Page
+
+![Products Page](Screenshots/02-products-page.png)
+
+#### 3. Product Sorting
+
+![Product Sorting](Screenshots/03-products-list-view-1.png)
+
+#### 4. Shopping Cart
+
+![Shopping Cart](Screenshots/08-shopping-cart.png)
+
+#### 5. Checkout Information
+
+![Checkout Information](Screenshots/11-checkout-information-filled.png)
+
+#### 6. Checkout Validation
+
+![Checkout Validation](Screenshots/10-checkout-validation-error.png)
+
+#### 7. Checkout Overview
+
+![Checkout Overview](Screenshots/12-checkout-overview.png)
+
+#### 8. Successful Order Confirmation
+
+![Order Confirmation](Screenshots/14-order-confirmation.png)
 
 These screenshots provide visual evidence of the application behavior observed during testing.
 
